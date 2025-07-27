@@ -14,8 +14,15 @@
 ### Overview
 This is a Streamlit dashboard that fetches news headlines from a live news API, performs sentiment analysis on the articles, and visualizes the overall tone (positive, negative, neutral) of the news.
 
-### 🧰 **Tools  Used**:
+👉 **[Live Demo on Streamlit]([https://your-app-name.streamlit.app/](https://sofiya-medyamin-news-sentiment-analysis.streamlit.app/))**
 
+## Features
+- Fetches real-time news using NewsAPI
+- Sentiment analysis using TextBlob
+- Interactive bar chart with Altair
+- Download filtered articles as CSV
+
+### 🧰 **Tools  Used**:
 - **Python**
 - **Streamlit**
 - **News API** (like [NewsAPI.org](https://newsapi.org/))
