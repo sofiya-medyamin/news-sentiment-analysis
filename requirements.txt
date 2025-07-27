@@ -1,0 +1,7 @@
+python-dotenv
+streamlit
+pandas
+requests
+textblob
+altair
+python-dotenv
