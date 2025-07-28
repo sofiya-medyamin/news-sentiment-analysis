@@ -137,7 +137,7 @@ all_articles = parsed_articles # 'All Time' tab simply shows all processed artic
 
 # ---- DASHBOARD METRICS AND VISUALIZATIONS ----
 # Create two columns for dashboard layout
-col1, col2, spacer1, spacer2, spacer3, spacer4, col3 = st.columns([1, 1, 1, 1, 1, 1, 1])
+col1, col2, spacer1, spacer2, col3 = st.columns([1, 1, 1, 1, 1])
 
 with col1:
     st.metric("📈 Avg Sentiment Polarity", round(df["polarity"].mean(), 2) if not df.empty else 0.0)
