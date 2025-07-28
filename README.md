@@ -26,8 +26,8 @@ This is a Streamlit dashboard that fetches news headlines from a live news API, 
 - **Python**
 - **Streamlit**
 - **News API** (like [NewsAPI.org](https://newsapi.org/))
-- **TextBlob** or **VADER** (for sentiment analysis)
-- **Pandas** & **Altair** or **Plotly** (for visualization)
+- **TextBlob** (for sentiment analysis)
+- **Pandas** & **Altair** (for visualization)
 
 ### Usage
 - Enter your search topics in the sidebar.
